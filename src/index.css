@@ -1,0 +1,45 @@
+:root {
+  /* Background */
+  --bg-primary: #0f1115;
+  --bg-secondary: #171a21;
+  --bg-tertiary: #1f232d;
+
+  /* Calculator */
+  --calculator-bg: #15181f;
+  --display-bg: #3d3f43;
+
+  /* Buttons */
+  --button-bg: #222631;
+  --button-hover: #2b303c;
+  --button-active: #343a48;
+
+  /* Operators */
+  --operator: #7c5cff;
+  --operator-hover: #8d70ff;
+
+  /* Equals */
+  --equals: #5b8cff;
+  --equals-hover: #709cff;
+
+  /* Text */
+  --text-primary: #f5f7fa;
+  --text-secondary: #9ba3b4;
+  --text-muted: #626a7a;
+
+  /* Utility */
+  --danger: #ff5c6c;
+  --border: #292e39;
+
+  /* Effects */
+  --shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+}
+
+body {
+
+  background-color: var(--bg-tertiary);
+}
